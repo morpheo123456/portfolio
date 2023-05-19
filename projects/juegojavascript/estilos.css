@@ -1,0 +1,32 @@
+.game-board {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    margin-left:100px;
+}
+
+.box img{
+    width:100%;
+}
+
+div#panel {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+}
+
+#solucion img.encima {
+  border: 5px dashed fuchsia;
+}
+
+#desordenadas img.agarrado{
+  border: 5px dashed cyan;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | Comfy</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- styles css -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- <script type="text/javascript" defer src="app.js"></script> -->
+  <script type="module" defer src="app_poo.js"></script>
+</head>
+
+<body>
+
+  <!-- edit -->
+  <div class="edit-overlay">
+    <aside class="edit">
+      <button class="edit-close">
+        <i class="fas fa-times"></i>
+      </button>
+      <header>
+        
+        <h3 class="text-slanted">Modify</h3>
+      </header>
+      <!-- edit items -->
+      <form id="formu_edit" class="input-form">
+        <input type="text" id="edit_title" name="title" class="search-input" placeholder="Title" />
+        <input type="text" id="edit_company" name="company" class="search-input" placeholder="Company" />
+        <input type="number" id="edit_price" name="price" class="search-input" placeholder="Price" />
+        <input type="url" id="edit_image" name="image" class="search-input" placeholder="Photo" />
+        <button id="edit" type="button" class="edit-checkout btn">Send changes</button>
+      </form>
+    </aside>
+  </div>
+  <!-- products -->
+  <section class="products">
+    <!-- filters -->
+    <div class="filters">
+      <article class="filters-container">
+        <header>
+          <h3 class="text-slanted">New furniture</h3>
+        </header>
+        <form id="formu_create" class="input-form">
+          <input type="text" name="title" id="title" class="search-input" placeholder="Title" />
+          <input type="text" name="company" id="company" class="search-input" placeholder="Company" />
+          <input type="number" name="price" id="price" class="search-input" placeholder="Price" />
+          <input type="url" name="image" id="image" class="search-input" placeholder="Photo" style="margin-bottom: 0.5rem";/>
+          <button id="create" type="button" class="edit-checkout btn">Create new</button>
+        </form>
+        <h4>Pagination</h4>
+        <article>
+          <span class="company-btn"><a id="prev" href="">Previous</a></span><span class="company-btn"><a id="next"
+              href="">Next</a></span>
+        </article>
+    </div>
+    </div>
+    <!-- products -->
+    <div class="products-container">
+
+    </div>
+    
+  </section>
+  
+  <!--loading-->
+  <div id="loading">
+    <h3>Waiting</h3><br>
+    <progress max="100"></progress>
+  </div>
+  
+  <!--alert-->
+  <div class="alerta">
+    
+  </div>
+ 
+</body>
+
+</html>

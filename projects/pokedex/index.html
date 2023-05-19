@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script type="text/javascript" defer src="app.js"></script>
+</head>
+<body>
+    <div id="cargando">
+        <h1>Cargando datos</h1>    
+        <progress max="100">Cargando datos</progress>
+    </div>
+    <main class="flex">
+        <article class="cardref">
+            <div class="card-body">
+                <p class="card-body-text"><a id="ant" href="#">Anteriores</a></p>
+            </div>
+        </article>
+        <article class="cardmenu">
+            
+        </article>
+        <article class="cardref">
+            <div class="card-body">
+                <p class="card-body-text"><a id="sig" href="#">Siguientes</a></p>
+            </div>
+        </article>
+        <article class="card">
+            <img src="./images/bg-pattern-card.svg" alt="imagen header card" class="card-header">
+            <div class="card-body">
+                <img id="imagen" src="https://empresas.blogthinkbig.com/wp-content/uploads/2019/11/Imagen3-245003649.jpg?w=800" alt="imagen de pokemon" class="card-body-img">
+                <h1 id="nombre" class="card-body-title">
+                    Nombre pokemon
+                    <span>Nivel</span>
+                </h1>
+                <p class="card-body-text" id="exp">Experiencia</p>
+            </div>
+            <div class="card-footer">
+                <div class="atributos card-footer-social">
+                    <h3>__</h3>
+                    <p>Ataque</p>
+                </div>
+                <div class="atributos card-footer-social">
+                    <h3>__</h3>
+                    <p>Especial</p>
+                </div>
+                <div class="atributos card-footer-social">
+                    <h3>__</h3>
+                    <p>Defensa</p>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    margin-left: 33%;
+    background-image: url("fondo.jpg");
+}
+.izq-cuadrado {
+    position: relative;
+    border-radius: 5px;
+    background-color: #04B486;
+    color: floralwhite;
+    padding: 5px;
+    width: 420px;
+    font-family: cursive;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    
+}
+.izq-cuadrado:before {
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #04B486;
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    margin: -25px 0px 0px 40px;
+    
+}
+
+
+.der-cuadrado {
+    position: relative;
+    right:0px;
+    border-radius: 5px;
+    background-color: #58ACFA;
+    color: floralwhite;
+    padding: 5px;
+    width: 420px;
+    font-family: cursive;
+    font-size: 1.5em;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    
+}
+.der-cuadrado:before {
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #58ACFA;
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    margin: -25px 0px 0px 340px;
+    
+}
